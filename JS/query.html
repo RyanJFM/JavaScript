@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello</title>
+        <script>
+
+            let counter = 0;
+
+            function count() {
+
+                const heading = document.querySelector("h1");
+                if (heading.innerHTML === "Hello") {
+                    heading.innerHTML = "Goodbye";
+                } 
+                else {
+                    heading.innerHTML = "Hello";
+                }
+            }
+            
+        </script>
+    </head>
+    <body>
+        <h1>Hello</h1>
+        <button onclick="count()">counter</button >
+    </body>
+</html>
